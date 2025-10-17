@@ -55,8 +55,10 @@ const translations = {
   }
 };
 
-// Alapértelmezett nyelv
-let currentLang = 'en';
+
+
+
+let currentLang = localStorage.getItem('lang') || 'en';
 changeLanguage(currentLang);
 
 
@@ -65,6 +67,7 @@ function changeLanguage(lang) {
   
   const t = translations[lang];
   if (!t) return;
+  localStorage.setItem('lang', lang);
 
   document.getElementById("page-title").textContent = t.pageTitle;
   document.getElementById("site-title").textContent = t.pageTitle;
