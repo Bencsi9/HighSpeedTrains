@@ -31,7 +31,7 @@ Welcome to the **High-Speed Trains Web Project**! This website is dedicated to s
 ## How to Use
 
 You can access the live version of the website at:
-[[https://bencsi9.github.io/HighSpeedTrains/](https://bencsi9.github.io/HighSpeedTrains/](https://bencsi9.github.io/HighSpeedTrains/hst-site/hst-main#))
+[https://bencsi9.github.io/HighSpeedTrains/hst-site/hst-main#]
 
 Feel free to navigate through the different sections of the website to learn more about each high-speed train system!
 
