@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="page-title"></title>
+  <link rel="stylesheet" href="hst-main.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <h1 id="site-title"></h1>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="changeLanguage('hu')">🇭🇺 HU</a></li>
+        <li><a href="#" onclick="changeLanguage('en')">🇬🇧 EN</a></li>
+        <li><a href="#" onclick="changeLanguage('de')">🇩🇪 DE</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="wrapper">
+
+    <!-- Intro -->
+    <section id="intro" class="section">
+      <div class="content">
+        <h2 id="intro-title"></h2>
+        <p id="intro-text"></p>
+      </div>
+    </section>
+
+    <!-- History -->
+    <section id="history" class="section alt">
+      <div class="content">
+        <h2 id="history-title"></h2>
+        <p id="history-text"></p>
+        <a href="countries/history.html" class="button" id="history-button"></a>
+      </div>
+    </section>
+
+    <!-- Japan -->
+    <section id="japan" class="section">
+      <div class="content">
+        <h2 id="japan-title"></h2>
+        <p id="japan-text"></p>
+        <a href="countries/japan.html" class="button" id="japan-button"></a>
+      </div>
+    </section>
+
+    <!-- France -->
+    <section id="france" class="section alt">
+      <div class="content">
+        <h2 id="france-title"></h2>
+        <p id="france-text"></p>
+        <a href="countries/france.html" class="button" id="france-button"></a>
+      </div>
+    </section>
+
+    <!-- Germany -->
+    <section id="germany" class="section">
+      <div class="content">
+        <h2 id="germany-title"></h2>
+        <p id="germany-text"></p>
+        <a href="countries/germany.html" class="button" id="germany-button"></a>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <p id="footer-text"></p>
+  </footer>
+
+  <script src="hst-main-languages.js"></script>
+</body>
+</html>
