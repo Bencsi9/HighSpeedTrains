@@ -36,6 +36,7 @@ function changeLanguage(lang) {
   currentLang = lang;
   localStorage.setItem('lang', lang);
 
+  document.getElementById('page-title').textContent = texts[lang].pageTitle;
   document.getElementById('site-title').textContent = texts[lang].pageTitle;
 
   const sections = document.querySelectorAll('.section');

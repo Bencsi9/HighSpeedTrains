@@ -16,7 +16,6 @@ body {
   z-index: 1000;
 }
 
-/* Cím – mindig középen */
 #site-title {
   text-align: center;
   font-size: 1.6em;
@@ -24,21 +23,18 @@ body {
   margin: 5px 0;
 }
 
-/* Alsó sor: ház balra, nyelvek jobbra */
 .nav-bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* Házikó */
 .home-icon {
   font-size: 1.5em;
   color: white;
   text-decoration: none;
 }
 
-/* Nyelvek */
 .lang-menu {
   display: flex;
   gap: 10px;
@@ -57,7 +53,6 @@ body {
   background-color: #0066cc;
 }
 
-/* Mobil nézet: egységes, két sor */
 @media (max-width: 600px) {
   .navbar {
     padding: 5px 10px;
@@ -82,15 +77,13 @@ body {
 }
 
 
-/* Wrapper a snap scrollhoz */
 .wrapper {
   height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
-  margin-top: 60px; /* navbar miatt */
+  margin-top: 60px;
 }
 
-/* Szekciók */
 .section {
   min-height: calc(100vh - 60px);
   display: flex;
